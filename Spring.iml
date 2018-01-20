@@ -5,6 +5,7 @@
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
           <file>file://$MODULE_DIR$/src/spring-config.xml</file>
+          <file>file://$MODULE_DIR$/src/Chapter_02/XMLConfig/XML/CNamespaceValueTest-context.xml</file>
         </fileset>
       </configuration>
     </facet>
@@ -41,5 +42,9 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="junit-4.8.2" level="project" />
+    <orderEntry type="library" name="junit-4.12" level="project" />
+    <orderEntry type="library" name="hamcrest-all-1.3" level="project" />
+    <orderEntry type="library" name="system-rules-1.3.0" level="project" />
   </component>
 </module>
