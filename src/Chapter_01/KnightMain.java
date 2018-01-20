@@ -6,6 +6,7 @@ import org.springframework.context.support.
 public class KnightMain {
 
   public static void main(String[] args) throws Exception {
+    test();
     ClassPathXmlApplicationContext context = 
         new ClassPathXmlApplicationContext(
             "knight.xml");
@@ -13,6 +14,10 @@ public class KnightMain {
     knight.embarkOnQuest();
     context.close();
 
+  }
+
+  private static void test(){
+    String ss = "";
   }
 
 }
